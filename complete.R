@@ -1,9 +1,8 @@
 complete <- function(directory, id){
   
-  #initalize variables
+  #initalize variablez
   FileDirect <- as.character(directory)
   f <- 1
-  g <- 1
   Tabme <- data.frame()
   MonitorIDs <- c(id)
   SizeOfFinalVectors <- length(MonitorIDs)
